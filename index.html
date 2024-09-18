@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="add-item-section">
+        <input
+          type="text"
+          placeholder="Add item"
+          id="add-item-input"
+          class="add-item-input"
+        />
+        <button id="add-item-btn">Add</button>
+        <input type="datetime-local" id="calendar-input" />
+        <button id="clear-tasks-btn" class="hide">Clear All</button>
+        <button id="clear-completed-btn" class="hide">Clear Completed</button>
+        <div id="error-section" class="hide"></div>
+      </section>
+      <section id="filter-section"></section>
+      <section id="items-section">
+        <div id="items-container"></div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

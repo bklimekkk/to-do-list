@@ -1,0 +1,108 @@
+body {
+    font-family: Arial; 
+}
+.activity-name, .due-time {
+    display: inline-block; 
+    margin-right: 5px;
+}
+
+#error-section {
+    color: red;
+    font-size: 15px;
+}
+
+.hide {
+    display: none !important;
+}
+
+#add-item-section {
+    margin-bottom: 5px;
+}
+
+#add-item-btn {
+   color: white;
+   background-color: green; 
+   border: none;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px rgb(169, 169, 169); 
+}
+
+#clear-tasks-btn {
+    color: white;
+    background-color: rgb(173, 0, 0); 
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(169, 169, 169); 
+}
+
+.add-item-input, .search-item-input {
+    border: none;
+    box-shadow: 0 0 3px rgb(169, 169, 169);
+    border-radius: 20px;
+}
+
+.add-item-input::placeholder {
+    padding-left: 5px;
+}
+
+.all-tasks, .complete-tasks, .incomplete-tasks {
+    background-color: white;
+    border: 1px solid gray; 
+    border-radius: 5px;
+}
+
+.selected-filter {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#filter-section {
+    margin-bottom: 5px;
+}
+
+.item {
+    background-color: rgb(220, 220, 220);
+    margin-bottom: 7px;
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 3px rgb(141, 141, 141); 
+    position: relative;
+}
+
+.edit-button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(125, 125, 125);
+    color: white; 
+    margin: 0 5px;
+}
+
+.delete-button, .edit-done-button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(125, 125, 125);
+    color: white; 
+    margin: 0 5px;
+}
+
+#clear-completed-btn {
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white; 
+    box-shadow: 2px 2px 2px rgb(169, 169, 169); 
+}
+
+.flex {
+    flex: 1;
+}
+
+.non-edit-section {
+    display: flex; 
+}
+
+.edit-item-section {
+    display: flex;
+}
